@@ -1,0 +1,22 @@
+{
+  "name": "go-team-falcon",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "fusioncharts": "^3.11.3-sr.1",
+    "react": "^15.4.2",
+    "react-bar-chart": "^0.1.1",
+    "react-dom": "^15.4.2",
+    "react-fusioncharts": "^1.0.4",
+    "victory": "^0.15.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
