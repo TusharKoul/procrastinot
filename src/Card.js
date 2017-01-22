@@ -28,7 +28,7 @@ export default class Card extends Component {
 	}
 
   render() {
-  	const progressBar = <Line percent={this.state.progress} strokeWidth="3" strokeColor="#D3D3D3" className="progress"/>
+  	const progressBar = <Line percent={this.state.progress} strokeLinecap="square" strokeWidth="3" strokeColor="#D3D3D3" className="progress"/>
     return (
       <article className="card">
       	{this.props.details.category !== 'Work' ? progressBar : '' }
