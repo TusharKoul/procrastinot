@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Graph from './Graph'
 import PieChart from './PieChart'
+import LineGraph from './LineGraph'
 
 class App extends Component {
   render() {
@@ -16,8 +16,8 @@ class App extends Component {
         </p>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-6">
-              <Graph/>
+            <div className="blah col-lg-6 col-md-6">
+            <LineGraph/>
             </div>
             <div className="col-lg-6 col-md-6">
               <PieChart />
