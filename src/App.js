@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import MainSection from './MainSection';
 
+import Footer from './Footer';
+
 import Title from './Title';
 import Card from './Card';
 import './App.css';
@@ -53,6 +55,7 @@ export default class App extends Component {
           .map(key => <Card key={key} index={key} details={this.state.posts[key]}/>)
         }
     </div>
+    <Footer />
     </div>
     );
   }
