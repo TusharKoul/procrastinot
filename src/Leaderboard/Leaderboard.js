@@ -9,10 +9,13 @@ export default class Leaderboard extends Component {
                     <h4 className="card-header--title">Leaderboard</h4>
                 </div>
                 <div className="leaderboard-list">
-                    <LeaderCell name="John" icon="&#128526;" timeSaved='2hr 30min' width={330}/>
-                    <LeaderCell name="Malcom" icon="&#x1f60a;" timeSaved='2hr' width={270}/>
-                    <LeaderCell name="Judy" icon="&#128528;" timeSaved='1hr' width={200}/>
-                    <LeaderCell name="Trisha" icon="&#128549;" timeSaved='15min' width={190}/>
+                    <LeaderCell name="John" icon="&#128526;" timeSaved='4hr 30min' width={330}/>
+                    <LeaderCell name="Malcom" icon="&#128512;" timeSaved='3hr 30min' width={300}/>
+                    <LeaderCell name="Judy" icon="&#128539;" timeSaved='3hr' width={270}/>
+                    <LeaderCell name="Dian" icon="&#128528;" timeSaved='2hr 15min' width={240}/>
+                    <LeaderCell name="Micheal" icon="&#128533;" timeSaved='1hr 15min' width={210}/>
+                    <LeaderCell name="Tushar" icon="&#128549;" timeSaved='60 min' width={190}/>
+                    <LeaderCell name="Judy" icon="&#128531;" timeSaved='50min' width={160}/>
                 </div>
             </div>
         );
