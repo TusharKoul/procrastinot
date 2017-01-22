@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import MainSection from './MainSection';
+import Header from './Header';
 import Footer from './Footer';
 import Title from './Title';
 import Card from './Card';
@@ -45,7 +46,7 @@ export default class App extends Component {
   render() {
     return (
     <div>
-      <header className="app-header" />
+      <Header />
       {/*<Title />*/}
       <div className="leaderboard-container">
         <Leaderboard/>
