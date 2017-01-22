@@ -158,7 +158,7 @@ body, html {
 }
 @media (min-width: 768px) {
   .app-card-list {
-    width: 80%;
+    width: 75%;
     white-space: nowrap;
     margin-top: 0;
   }
@@ -191,4 +191,37 @@ body, html {
 
 .heart {
   color: #C62828;
+}
+
+.leaderboard-container {
+  display: inline-block;
+  width: 25%;
+  height: 600px;
+  box-shadow: 10px 5px 40px 20px #2d1896;
+  transition: .25s;
+}
+
+.leaderboard-body {
+  margin-top: 60px;
+  height: 100%;
+}
+
+.leaderboard-header {
+  margin-top: 60px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: white;
+}
+
+.leaderboard-list {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.leaderboard-cell {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  background-color: rgba(33,1,114,0.60);
 }

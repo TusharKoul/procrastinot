@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import MainSection from './MainSection';
-
 import Footer from './Footer';
-
 import Title from './Title';
 import Card from './Card';
 import './App.css';
 import PostsData from './PostsData';
+import Leaderboard from './Leaderboard/Leaderboard';
 
 // export default class App extends Component {
 //   render() {
@@ -46,8 +45,11 @@ export default class App extends Component {
   render() {
     return (
     <div>
-      <header className="app-header"></header>
-      <Title />
+      <header className="app-header" />
+      {/*<Title />*/}
+      <div className="leaderboard-container">
+        <Leaderboard/>
+      </div>
       <div className="app-card-list" id="app-card-list">
         {
           Object
