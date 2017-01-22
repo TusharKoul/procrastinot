@@ -7,7 +7,7 @@ export default class LeaderCell extends Component {
         <div className="leaderboard-cell" style={{width : 330}}>
             <div style={{display: 'inline-block'}}>
                 <div className="leaderboard-cell-name"> {this.props.name} </div>
-                <div> saved 30 minutes this week </div>
+                <div> saved {this.props.timeSaved} this week </div>
             </div>
             <div className="leaderboard-cell-icon">{this.props.icon}</div>
         </div>
