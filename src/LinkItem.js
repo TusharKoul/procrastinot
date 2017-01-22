@@ -13,7 +13,7 @@ export default class LinkItem extends Component {
     return (
     	<div>
     		<h1> {this.props.data.name} </h1>
-    		<img src="blah.jpg" />
+    		<img src={'http://www.google.com/s2/favicons?domain=' + this.props.data.link} role="presentation" />
     	</div>
     );
   }
