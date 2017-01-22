@@ -229,7 +229,6 @@ body, html {
 }
 
 .app-name {
-  width: 50%;
     display: inline-block;
     color: #fff;
     margin-top: 20px;
@@ -242,6 +241,7 @@ body, html {
 
 .app-header-container {
   min-height: 105px;
+  text-align: center;
 }
 
 .timer-container {
