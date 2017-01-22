@@ -28,11 +28,12 @@ export default class Card extends Component {
 	}
 
   render() {
+  	const progressBar = <Line percent={this.state.progress} strokeWidth="3" strokeColor="#D3D3D3" className="progress"/>
     return (
       <article className="card">
-      	<Line percent={this.state.progress} strokeWidth="4" strokeColor="#D3D3D3" className="progress"/>
+      	{this.props.details.category !== 'Work' ? progressBar : '' }
         <CardHeader category={this.props.details.category} imageLink={this.props.details.link} />
-        <CardBody title={this.props.details.title} text={this.props.details.text}/>
+        <CardBody title={this.props.details.title} number={this.props.details.visits}/>
       </article>
     );
   }

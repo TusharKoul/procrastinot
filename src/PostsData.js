@@ -2,32 +2,38 @@ const PostsData = [
   {
     "category": "News",
     "title": "Reddit",
-    "link": 'reddit.com'
+    "link": 'reddit.com',
+    "visits": '25'
   },
   {
-    "category": "Travel",
+    "category": "Work",
     "title": "Google",
-    "link": 'google.com'
+    "link": 'google.com',
+    "visits": '55'
   },
   {
-    "category": "Development",
+    "category": "Social",
     "title": "Facebook",
-    "link": 'facebook.com'
+    "link": 'facebook.com',
+    "visits": '10'
   },
   {
-    "category": "News",
+    "category": "Work",
     "title": "LinkedIn",
-    "link": 'linkedin.com'
+    "link": 'linkedin.com',
+    "visits": '22'
   },
   {
-    "category": "Travel",
+    "category": "Personal",
     "title": "Pornhub",
-    "link": 'pornhub.com'
+    "link": 'pornhub.com',
+    "visits": '5'
   },
   {
-    "category": "Development",
+    "category": "Work",
     "title": "Stack Overflow",
-    "link": 'stackoverflow.com'
+    "link": 'stackoverflow.com',
+    "visits": '66'
   }
 ]
 
