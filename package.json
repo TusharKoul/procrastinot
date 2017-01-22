@@ -9,6 +9,7 @@
     "color-thief-jimp": "^2.0.2",
     "color-thief-standalone": "^1.0.3",
     "grade-js": "^1.0.10",
+    "rc-progress": "^2.0.6",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-timer": "^1.0.2"

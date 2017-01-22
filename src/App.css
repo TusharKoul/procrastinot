@@ -202,35 +202,37 @@ body, html {
 }
 
 .leaderboard-body {
-  margin-top: 60px;
   height: 100%;
 }
 
 .leaderboard-header {
-  margin-top: 60px;
   padding-top: 15px;
   padding-left: 15px;
+  padding-bottom: 15px;
   color: white;
 }
 
 .leaderboard-list {
   padding-top: 15px;
-  padding-left: 15px;
 }
 
 .leaderboard-cell {
-  margin-bottom: 20px;
-  padding: 15px;
-  border-radius: 25px;
-  border: 2px solid #73AD21;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-radius: 0 25px 25px 0;
+  border-left-style: dotted;
   background-color: rgba(33,1,114,0.60);
+  font-size: 10px;
+  color: #fff;
 }
 
 .app-name {
   width: 50%;
     display: inline-block;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .app-name h1 {
@@ -249,4 +251,25 @@ body, html {
 
 .react-timer {
   padding: 0 !important;
+}
+.leaderboard-cell-name {
+  font-size: 14px;
+}
+
+.leaderboard-cell-icon {
+  float:right;
+  display: inline-block;
+
+  margin-right: 10px;
+  margin-top: 1px;
+  border-radius: 50%;
+  font-size: x-large;
+}
+
+.progress {
+  width: 100%;
+}
+
+.seconds {
+  color: #fff !important;
 }
